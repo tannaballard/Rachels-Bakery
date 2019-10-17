@@ -25,6 +25,7 @@ li {
   cursor: pointer;
   border-radius: 5px;
   text-align: center;
+  font-family: 'Poppins', sans-serif;
 
 }
 .haha {
@@ -34,6 +35,7 @@ li {
   margin-left: auto;
   margin-right: auto;
   align-items: center;
+  color: #F9CBDC;
 }
 .center {
   position: absolute;
@@ -42,5 +44,5 @@ li {
   transform: translate(-50%, -50%);
   font-family: 'Poppins', sans-serif;
   font-size: 45px;
-  color: #0C73A0;
+  color: #FFF;
 }
