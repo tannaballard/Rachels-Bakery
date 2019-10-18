@@ -65,6 +65,11 @@ body {
   background-color: #F9CBDC;
 }
 .hehe {
-  height: 450px;
+  height: 490px;
   width: 367px;
+  border-radius: 30px;
+}
+.about-me  h2 {
+  text-align: left;
+  font-family: 'Poppins', sans-serif;
 }
