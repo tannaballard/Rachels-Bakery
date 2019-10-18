@@ -7,10 +7,23 @@ li {
 }
 .navbar {
   color: #FFF;
+  background-color: #FFF;
+  border-top-left-radius:30px;
+border-bottom-left-radius:30px;
+border-top-right-radius:30px;
+border-bottom-right-radius:30px;
 }
 .navbar-brand {
   float: right;
+
 }
+
+.nav-pills .nav-link.active  {
+  color: #FFF;
+  background-color: #5FA5C4;
+
+}
+
 .container .btn {
   position: absolute;
   top: 50%;
@@ -19,7 +32,7 @@ li {
   -ms-transform: translate(-50%, -50%);
   background-color: white;
   color: white;
-  font-size: 16px;
+  font-size: 23px;
   padding: 12px 24px;
   border: none;
   cursor: pointer;
@@ -35,7 +48,6 @@ li {
   margin-left: auto;
   margin-right: auto;
   align-items: center;
-  color: #F9CBDC;
 }
 .center {
   position: absolute;
@@ -45,4 +57,14 @@ li {
   font-family: 'Poppins', sans-serif;
   font-size: 45px;
   color: #FFF;
+}
+.container{
+  background-color: #F9CBDC;
+}
+body {
+  background-color: #F9CBDC;
+}
+.hehe {
+  height: 450px;
+  width: 367px;
 }
