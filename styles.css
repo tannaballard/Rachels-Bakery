@@ -48,6 +48,7 @@ border-bottom-right-radius:30px;
   margin-left: auto;
   margin-right: auto;
   align-items: center;
+  border-radius: 30px;
 }
 .center {
   position: absolute;
@@ -69,7 +70,12 @@ body {
   width: 367px;
   border-radius: 30px;
 }
-.about-me  h2 {
+.about-me  {
   text-align: left;
+}
+.about {
   font-family: 'Poppins', sans-serif;
+  text-align: center;
+  
+
 }
