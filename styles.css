@@ -69,6 +69,8 @@ body {
   height: 490px;
   width: 367px;
   border-radius: 30px;
+  margin-left: 10px;
+  margin-top: 35px;
 }
 .about-me  {
   text-align: left;
@@ -76,6 +78,22 @@ body {
 .about {
   font-family: 'Poppins', sans-serif;
   text-align: center;
-  
-
+  border-style: dotted;
+  border-color: #0C73A0;
+  border-width: 5px;
+  margin-top: 35px;
+  border-radius: 20px;
+  margin-left: 100px;
+  min-width: 200px;
+  max-width: 450px;
+}
+p {
+  font-size: 20px;
+  text-indent: 5%;
+}
+.tay {
+  border-radius: 30px;
+  height: 200px;
+  margin-left: 56px;
+  margin-top: 10px;
 }
