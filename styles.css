@@ -109,8 +109,8 @@ p {
 .cake1 {
   display: flex;
   height: 450px;
-  margin-top: 20px;
-  margin-left: auto;
+  margin-top: 70px;
+  margin-left: 60px;
   margin-right: auto;
   align-items: center;
 border-radius: 30px;
@@ -122,4 +122,12 @@ border-radius: 30px;
   margin-left: auto;
   margin-right: 40px;
   margin-bottom: 20px;
+}
+.cake3 {
+  display: flex;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  border-radius: 30px;
 }
