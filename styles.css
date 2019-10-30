@@ -32,16 +32,14 @@ margin-left: 50px;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
-  background-color: white;
-  color: black;
+  background-color: #FF99C0;
+  color: white;
   font-size: 30px;
   padding: 12px 24px;
   border: none;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 30px;
   text-align: center;
-  font-family: 'Poppins', sans-serif
-
 }
 .haha {
   height: 750px;
@@ -65,14 +63,19 @@ margin-left: 50px;
   font-size: 50px;
   color: #FFF;
 }
+.indexrachel {
+  border-radius: 50%;
+  margin-bottom: 10px;
+  margin-left: 60px;
+}
 .footer {
   background-color: #5FA5C4;
 }
 .footey {
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-left: 100px;
-  margin-right: auto;
+  margin-left: auto;
+  margin-right: 30px;
 
 }
 .footey li {
@@ -174,6 +177,4 @@ border-radius: 30px;
   margin-right: auto;
   align-items: center;
   border-radius: 30px;
-  border-style: inset;
-
 }
