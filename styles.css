@@ -71,28 +71,30 @@ margin-left: 50px;
 .footey {
   margin-top: 10px;
   margin-bottom: 10px;
-}
-.footey h4 {
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
+  margin-left: 100px;
+  margin-right: auto;
 
 }
-.footey p {
+.footey li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    list-style-type: none;
+}
+.footey h4 {
   font-family: 'Poppins', sans-serif;
-  font-size: 16px;
+  font-size: 20px;
 }
 .navfoot {
   margin-top: 10px;
   margin-bottom: 10px;
   margin-right: 20px;
 }
-.navifoot li {
+.navfoot h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
   background-color: #5FA5C4;
   display: flex;
-
-
+  color: black;
 }
 .navfoot li {
   font-family: 'Poppins', sans-serif;
