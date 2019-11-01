@@ -31,7 +31,6 @@ margin-left: 50px;
   top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
   background-color: #FF99C0;
   color: white;
   font-size: 30px;
