@@ -25,20 +25,19 @@ margin-left: 50px;
 
 }
 
-.container .btn {
+button .btn {
   display: block;
   position: absolute;
-  top: 65%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: #FF99C0;
   color: white;
-  font-size: 30px;
+  font-size: 20px;
   padding: 12px 24px;
   border: none;
   cursor: pointer;
   border-radius: 30px;
-  text-align: center;
 }
 .haha {
   height: 750px;
@@ -55,7 +54,7 @@ margin-left: 50px;
 }
 .center {
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-family: 'Poppins', sans-serif;
@@ -63,7 +62,7 @@ margin-left: 50px;
   color: #FFF;
 }
 .lol {
-  font-family: 'Poppins', sans-serif;                                                                                                                                                                                                                                                                          
+  font-family: 'Poppins', sans-serif;
 }
 .bowbow {
   height: 800px;
@@ -73,6 +72,9 @@ margin-left: 50px;
   margin-left: 40px;
   border-style: outset;
   border-color: #5F93C4;
+}
+.idek {
+
 }
 .indexrachel {
   border-radius: 50%;
@@ -94,7 +96,7 @@ margin-left: 50px;
     font-size: 18px;
     list-style-type: none;
 }
-.footey h4 {
+.footey h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
 }
