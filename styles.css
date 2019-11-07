@@ -25,7 +25,7 @@ margin-left: 50px;
 
 }
 
-button .btn {
+ .btn {
   display: block;
   position: absolute;
   top: 50%;
@@ -73,52 +73,40 @@ button .btn {
   border-style: outset;
   border-color: #5F93C4;
 }
-.idek {
-
+address {
+  margin-left: 300px;
+  margin-top: 10px;
+  font-size: 14px;
 }
-.indexrachel {
-  border-radius: 50%;
-  margin-bottom: 10px;
-  margin-left: 60px;
-}
-.footer {
-  background-color: #5FA5C4;
+.navifoot {
+  margin-top: 10px;
+  color: black;
+margin-left: 300px;
+font-size: 14px;
 }
 .footey {
+  background-color: #5FA5C4;
+  position: flex;
   margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: auto;
-  margin-right: 30px;
-
+  font-size: 14px;
 }
 .footey li {
     font-family: 'Poppins', sans-serif;
-    font-size: 18px;
     list-style-type: none;
+    font-size: 14px;
+}
+.footey a {
+  text-decoration: none;
+  color:black
+}
+.footey a:hover {
+  color: white;
 }
 .footey h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
 }
-.navfoot {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 20px;
-}
-.navfoot h4 {
-  font-family: 'Poppins', sans-serif;
-  font-size: 20px;
-  background-color: #5FA5C4;
-  display: flex;
-  color: black;
-}
-.navfoot li {
-  font-family: 'Poppins', sans-serif;
-  font-size: 16px;
-  list-style-type: none;
-  background-color: #5FA5C4;
-  display: flex;
-}
+
 .container .aye{
   background-color: #F9CBDC;
   margin-right: 20px;
