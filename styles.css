@@ -24,6 +24,12 @@ margin-left: 50px;
   background-color: #5FA5C4;
 
 }
+.nav-pills a:hover {
+  background-color: rgba(116, 168, 210, 0.62);
+}
+.navbar-brand a:hover {
+  background-color: #FFF;
+}
 
  .btn {
   display: block;
@@ -75,11 +81,12 @@ margin-left: 50px;
 }
 address {
   margin-left: 300px;
-  margin-top: 10px;
+  margin-top: 30px;
   font-size: 14px;
 }
 .navifoot {
-  margin-top: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   color: black;
 margin-left: 300px;
 font-size: 14px;
@@ -105,23 +112,10 @@ font-size: 14px;
 
 .container .aye{
   background-color: #F9CBDC;
-  margin-right: 20px;
 }
-function myFunction() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
+#more
+{display: none;}
 
-  if (dots.style.display === "none") {
-    dots.style.display = "inline";
-    btnText.innerHTML = "Read more";
-    moreText.style.display = "none";
-  } else {
-    dots.style.display = "none";
-    btnText.innerHTML = "Read less";
-    moreText.style.display = "inline";
-  }
-}
 body {
   background-color: #F9CBDC;
 }
