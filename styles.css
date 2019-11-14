@@ -46,8 +46,8 @@ margin-left: 50px;
   border-radius: 30px;
 }
 .haha {
-  height: 750px;
-  width: 1080px;
+  height: 90%;
+  width: 90%;
   display: flex;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -71,20 +71,29 @@ margin-left: 50px;
   font-family: 'Poppins', sans-serif;
 }
 .bowbow {
-  height: 800px;
-  width: 900px;
+  height: 100%;
+  width: 100%;
   border-radius: 30px;
+  margin-top: 20px;
   margin-bottom: 10px;
   margin-left: 40px;
+  margin-right: 300px;
   border-style: outset;
   border-color: #5F93C4;
+}
+.quality h2 {
+  margin-top: 40px;
+  margin-right: 80px;
+}
+.testimonials {
+  margin-top: 20px;
 }
 address {
   margin-left: 300px;
   margin-top: 30px;
   font-size: 14px;
 }
-.navifoot {
+.navifoot  {
   margin-top: 30px;
   margin-bottom: 30px;
   color: black;
@@ -93,9 +102,9 @@ font-size: 14px;
 }
 .footey {
   background-color: #5FA5C4;
-  position: flex;
   margin-top: 10px;
   font-size: 14px;
+  display: block;
 }
 .footey li {
     font-family: 'Poppins', sans-serif;
