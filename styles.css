@@ -124,13 +124,7 @@ font-size: 14px;
 .footey a:hover {
   color: white;
 }
-.hehe {
-  height: 490px;
-  width: 367px;
-  border-radius: 30px;
-  margin-left: 10px;
-  margin-top: 35px;
-}
+/*styles for the about page*/
 .about-me  {
   text-align: left;
 }
@@ -140,22 +134,26 @@ font-size: 14px;
   border-style: dotted;
   border-color: #0C73A0;
   border-width: 5px;
-  margin-top: 35px;
+  margin-top: 30px;
   border-radius: 20px;
-  margin-left: 160px;
   min-width: 200px;
   max-width: 450px;
 }
 p {
   font-size: 20px;
-  text-indent: 5%;
+  text-indent: 3%;
   font-family: 'Poppins', sans-serif;
+  padding-bottom: none;
+}
+.hehe {
+  height: 490px;
+  width: 367px;
+  border-radius: 30px;
+  margin-top: 35px;
 }
 .tay {
   border-radius: 30px;
   height: 200px;
-  margin-top: 40px;
-  margin-left: 600px;
 
 }
 .eva {
@@ -163,6 +161,7 @@ p {
   margin-top: 50px;
   margin-right: 900px;
 }
+/*styles for the gallery page*/
 .cake1 {
   display: flex;
   height: 450px;
