@@ -1,6 +1,10 @@
 html {
   background-color: #F9CBDC;
 }
+body {
+  background-color: #F9CBDC;
+  box-sizing: border-box;
+}
 
 li {
   font-size: 30px;
@@ -32,6 +36,7 @@ margin-right: auto;
 .navbar-brand a:hover {
   background-color: #FFF;
 }
+/*styles for the index page*/
 
  .btn {
   display: block;
@@ -87,10 +92,10 @@ margin-right: auto;
   margin-right: 80px;
 }
 .testimonials {
-  margin-top: 20px;
+  margin-top: 30px;
 }
+/*styles for the footer*/
 address {
-  margin-left: 300px;
   margin-top: 30px;
   font-size: 14px;
 }
@@ -98,7 +103,6 @@ address {
   margin-top: 30px;
   margin-bottom: 30px;
   color: black;
-margin-left: 300px;
 font-size: 14px;
 }
 .footey {
@@ -106,6 +110,7 @@ font-size: 14px;
   margin-top: 10px;
   font-size: 14px;
   display: block;
+  width: 100%;
 }
 .footey li {
     font-family: 'Poppins', sans-serif;
@@ -118,17 +123,6 @@ font-size: 14px;
 }
 .footey a:hover {
   color: white;
-}
-
-.container .aye{
-  background-color: #F9CBDC;
-}
-#more
-{display: none;}
-
-body {
-  background-color: #F9CBDC;
-  box-sizing: border-box;
 }
 .hehe {
   height: 490px;
