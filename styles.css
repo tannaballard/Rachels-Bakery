@@ -66,7 +66,7 @@ margin-right: auto;
   border-color: #5F93C4;
 }
 .center {
-  position: absolute;
+  position: flex;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
