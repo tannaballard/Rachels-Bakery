@@ -37,7 +37,9 @@ margin-right: auto;
   background-color: #FFF;
 }
 /*styles for the index page*/
-
+img {
+  border-radius: 30px;
+}
  .btn {
   display: block;
   position: absolute;
@@ -61,12 +63,11 @@ margin-right: auto;
   margin-left: auto;
   margin-right: auto;
   align-items: center;
-  border-radius: 30px;
   border-style: outset;
   border-color: #5F93C4;
 }
 .center {
-  position: flex;
+  position: absolute;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -80,7 +81,6 @@ margin-right: auto;
 .bowbow {
   height: 100%;
   width: 70%;
-  border-radius: 30px;
   margin-top: 30px;
   margin-bottom: 15px;
   margin-left: auto;
@@ -132,33 +132,41 @@ font-size: 14px;
   border-width: 2px;
   border-spacing: 2px;
   border-color: #0C73A0;
-  margin-top: 30px;
   border-radius: 20px;
   min-width: 100px;
   max-width: 450px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 30px auto;
 }
 p {
   font-size: 20px;
   font-family: 'Poppins', sans-serif;
   padding-bottom: none;
 }
-.hehe {
-  height: 100%;
-  width: 100%;
-  border-style: solid;
-  border-radius: 30px;
-  border-color: #0C73A0;
-  margin-top: 35px;
+.container h4 {
+  margin: 35px auto;
+  font-family: 'Poppins', sans-serif;
 }
-.fancyrach {
-  height: 75%;
-  width: 75%;
+.hehe {
   border-style: solid;
-  border-radius: 30px;
   border-color: #0C73A0;
-  margin-top: 35px;
+  margin: 35px auto;
+}
+.eva {
+  border-style: solid;
+  border-radius: 50%;
+  border-color: #0C73A0;
+  margin: 35px auto;
+  display: block;
+}
+.tay {
+  border-style: solid;
+  border-color: #0C73A0;
+  margin: 35px auto;
+}
+figcaption {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  margin: 5px auto;
 }
 /*styles for the gallery page*/
 .cake1 {
@@ -187,3 +195,8 @@ border-radius: 30px;
   align-items: center;
   border-radius: 30px;
 }
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
