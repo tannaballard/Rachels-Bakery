@@ -104,6 +104,9 @@ address {
   margin-top: 30px;
   font-size: 14px;
 }
+ul#navfoot li {
+  display:inline;
+}
 .navifoot  {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -147,9 +150,17 @@ p {
   font-family: 'Poppins', sans-serif;
   padding-bottom: none;
 }
+.container {
+  display: flex;
+  flex-direction: column;
+}
 .container h4 {
   margin: 35px auto;
   font-family: 'Poppins', sans-serif;
+}
+#hidden {
+  float: left;
+  margin-top: 100px;
 }
 .hehe {
   border-style: solid;
