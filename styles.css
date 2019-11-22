@@ -1,4 +1,218 @@
+html {
+  background-color: #F9CBDC;
+}
+body {
+  background-color: #F9CBDC;
+  box-sizing: border-box;
+}
+
 li {
   font-size: 30px;
   font-family: 'Cookie', cursive;
 }
+.navbar {
+  color: #FFF;
+  background-color: #FFF;
+  border-top-left-radius:30px;
+border-bottom-left-radius:30px;
+border-top-right-radius:30px;
+border-bottom-right-radius:30px;
+margin-top: 10px;
+}
+.navbar-brand {
+  float: right;
+margin-left: 50px;
+margin-right: auto;
+}
+
+.nav-pills .nav-link.active  {
+  color: #FFF;
+  background-color: #5FA5C4;
+
+}
+.nav-pills a:hover {
+  background-color: rgba(116, 168, 210, 0.62);
+}
+.navbar-brand a:hover {
+  background-color: #FFF;
+}
+/*styles for the index page*/
+img {
+  border-radius: 30px;
+}
+ .btn {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #FF99C0;
+  color: white;
+  font-size: 20px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 30px;
+}
+.haha {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  border-style: outset;
+  border-color: #5F93C4;
+}
+.center {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  color: #FFF;
+}
+.lol {
+  font-family: 'Poppins', sans-serif;
+}
+.bowbow {
+  height: 100%;
+  width: 70%;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  border-style: outset;
+  border-color: #5F93C4;
+}
+.quality h2 {
+  margin-top: 40px;
+  margin-right: 80px;
+}
+.text-center {
+  font-size: 30px;
+  font-family: 'Cookie', cursive;
+  border-bottom: 2px solid #5F93C4;
+}
+.testimonials {
+  margin: 30px auto;
+}
+/*styles for the footer*/
+address {
+  margin-top: 30px;
+  font-size: 14px;
+}
+ul#navfoot li {
+  display:inline;
+}
+.navifoot  {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: black;
+font-size: 14px;
+}
+.footey {
+  background-color: #5FA5C4;
+  margin-top: 10px;
+  font-size: 14px;
+  display: block;
+  width: 100%;
+}
+.footey li {
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+    font-size: 14px;
+}
+.footey a {
+  text-decoration: none;
+  color:black
+}
+.footey a:hover {
+  color: white;
+}
+/*styles for the about page*/
+.about {
+  font-family: 'Cookie', cursive;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-spacing: 2px;
+  border-color: #0C73A0;
+  border-radius: 20px;
+  min-width: 100px;
+  max-width: 450px;
+  margin: 30px auto;
+}
+p {
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  padding-bottom: none;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.container h4 {
+  margin: 35px auto;
+  font-family: 'Poppins', sans-serif;
+}
+#hidden {
+  float: left;
+  margin-top: 100px;
+}
+.hehe {
+  border-style: solid;
+  border-color: #0C73A0;
+  margin: 35px auto;
+}
+.eva {
+  border-style: solid;
+  border-radius: 50%;
+  border-color: #0C73A0;
+  margin: 35px auto;
+  display: block;
+}
+.tay {
+  border-style: solid;
+  border-color: #0C73A0;
+  margin: 35px auto;
+}
+figcaption {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  margin: 5px auto;
+}
+/*styles for the gallery page*/
+.cake1 {
+  display: flex;
+  height: 450px;
+  margin-top: 70px;
+  margin-left: 60px;
+  margin-right: auto;
+  align-items: center;
+border-radius: 30px;
+}
+.cake2 {
+  display: flex;
+  margin-top: 20px;
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: 40px;
+  margin-bottom: 20px;
+}
+.cake3 {
+  display: flex;
+  height: 600px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  border-radius: 30px;
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
