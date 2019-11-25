@@ -6,7 +6,7 @@
 6.  Make meta viewport
 7.  Make meta description for each page
 8.  icon in title tag
-9.  Move all script tags right before closing body tag
+9.  Move all script tags right before closing body tag |done|
 10. Make header tag for navbar
 11. Fix footer
 12. put footer styles at the bottom
