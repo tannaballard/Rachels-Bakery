@@ -5,11 +5,10 @@ body {
   background-color: #F9CBDC;
   box-sizing: border-box;
 }
-
-li {
-  font-size: 30px;
-  font-family: 'Cookie', cursive;
+img {
+  border-radius: 30px;
 }
+/*styles for the navigation bar*/
 .navbar {
   color: #FFF;
   background-color: #FFF;
@@ -36,10 +35,12 @@ margin-right: auto;
 .navbar-brand a:hover {
   background-color: #FFF;
 }
-/*styles for the index page*/
-img {
-  border-radius: 30px;
+
+li{
+  font-size: 30px;
+  font-family: 'Cookie', cursive;
 }
+/*styles for the index page*/
  .btn {
   display: block;
   position: absolute;
