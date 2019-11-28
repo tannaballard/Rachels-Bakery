@@ -1,4 +1,4 @@
-1.  Need to link js file
+1.  Need to link js file |done|
 2.  Clean up css file
 3.  Social Media  
 4.  Make comments on html and css page
@@ -15,4 +15,3 @@
 15. test ALL links
 16. take out goofy names
 17. proofread for spelling and grammar errors
-18. 
