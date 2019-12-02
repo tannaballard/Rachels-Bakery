@@ -40,6 +40,51 @@ li{
   font-size: 30px;
   font-family: 'Cookie', cursive;
 }
+/*styles for the footer*/
+address {
+  margin-top: 30px;
+  font-size: 14px;
+}
+ul#navfoot li {
+  display:inline;
+}
+.navifoot {
+  display:table;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: black;
+font-size: 14px;
+  li{
+      display: table-cell;
+  }
+}
+#navfoot {
+  width: 100%;
+  float: left;
+  margin: 10px auto;
+	padding: 0;
+	background-color: #5FA5C4;
+	border-bottom: 1px solid #ccc;
+}
+.footey {
+  background-color: #5FA5C4;
+  margin-top: 10px;
+  font-size: 14px;
+  display: block;
+  width: 100%;
+}
+.footey li {
+    font-family: 'Poppins', sans-serif;
+    list-style-type: none;
+    font-size: 14px;
+}
+.footey a {
+  text-decoration: none;
+  color:black
+}
+.footey a:hover {
+  color: white;
+}
 /*styles for the index page*/
  .btn {
   display: block;
@@ -100,39 +145,7 @@ li{
 .testimonials {
   margin: 30px auto;
 }
-/*styles for the footer*/
-address {
-  margin-top: 30px;
-  font-size: 14px;
-}
-ul#navfoot li {
-  display:inline;
-}
-.navifoot  {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  color: black;
-font-size: 14px;
-}
-.footey {
-  background-color: #5FA5C4;
-  margin-top: 10px;
-  font-size: 14px;
-  display: block;
-  width: 100%;
-}
-.footey li {
-    font-family: 'Poppins', sans-serif;
-    list-style-type: none;
-    font-size: 14px;
-}
-.footey a {
-  text-decoration: none;
-  color:black
-}
-.footey a:hover {
-  color: white;
-}
+
 /*styles for the about page*/
 .about {
   font-family: 'Cookie', cursive;
@@ -212,8 +225,3 @@ border-radius: 30px;
   align-items: center;
   border-radius: 30px;
 }
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
