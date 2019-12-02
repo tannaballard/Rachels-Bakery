@@ -48,23 +48,15 @@ address {
 ul#navfoot li {
   display:inline;
 }
-.navifoot {
-  display:table;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  color: black;
-font-size: 14px;
-  li{
-      display: table-cell;
-  }
-}
 #navfoot {
   width: 100%;
   float: left;
-  margin: 10px auto;
 	padding: 0;
 	background-color: #5FA5C4;
-	border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  margin: 30px auto;
+  color: black;
+font-size: 14px;
 }
 .footey {
   background-color: #5FA5C4;
