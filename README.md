@@ -14,3 +14,5 @@
 14. resize images- make sure theyre jpg and jpeg
 15. test ALL links-taylor
 16. proofread for spelling and grammar errors-taylor
+17. take out contact page |done|
+18. if enough time, make carousel on index page
