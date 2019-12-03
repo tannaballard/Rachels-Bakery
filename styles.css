@@ -130,13 +130,14 @@ font-size: 14px;
   margin-right: 80px;
 }
 .text-center {
-  font-size: 30px;
+  font-size: 45px;
   font-family: 'Cookie', cursive;
   border-bottom: 2px solid #5F93C4;
 }
 .testimonials {
-  margin: 30px auto;
+  margin: 35px auto;
 }
+
 
 /*styles for the about page*/
 .about {
