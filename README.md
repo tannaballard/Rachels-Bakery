@@ -16,3 +16,11 @@
 16. proofread for spelling and grammar errors-taylor
 17. take out contact page |done|
 18. if enough time, make carousel on index page
+
+
+
+1. Make sure you're site is responsive
+2. beautify your code for each page.
+3. ALL script links need to go at the bottom above the closing body tag
+4. If you have custom scripts (menu), put them in the main.js file and link to the page after all of the other scripts
+5. Need Comments in all of your html, CSS file looks great.
