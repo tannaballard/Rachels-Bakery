@@ -59,6 +59,7 @@ ul#navfoot li {
   color: black;
 font-size: 20px;
 width: 100%;
+border-right: 1px solid black;
 }
 
 .footey {
@@ -81,7 +82,7 @@ width: 100%;
   color: white;
 }
 /*styles for the index page*/
- .btn {
+ #menu  {
   display: block;
   position: absolute;
   top: 50%;
