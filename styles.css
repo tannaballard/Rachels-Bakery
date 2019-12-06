@@ -188,12 +188,19 @@ border-radius: 30px;
 /*styles for the footer*/
 address {
   font-family: 'Quicksand', sans-serif;
-  margin-top: 30px;
+  margin: 30px auto;
   font-size: 14px;
 }
-table#navfoot td, th {
+#navfoot th {
+  font-family: 'Quicksand', sans-serif;
+}
+#navfoot td {
   font-family: 'Quicksand', sans-serif;
   display:inline;
+  border-right: 1px solid black;
+  border-spacing: 5px;
+  padding: 0 8px;
+  empty-cells: hide;
 }
 #navfoot {
   width: 100%;
@@ -202,9 +209,9 @@ table#navfoot td, th {
 	background-color: #5FA5C4;
   margin: 30px auto;
   color: black;
-font-size: 20px;
-width: 100%;
-border-right: 1px solid black;
+  font-size: 20px;
+  width: 100%;
+  
 }
 .footey {
   background-color: #5FA5C4;
