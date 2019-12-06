@@ -130,7 +130,7 @@ p {
   font-family: 'Poppins', sans-serif;
 }
 #hidden {
-  float: left;
+  float: center;
   margin-top: 100px;
 }
 .hehe {
@@ -193,6 +193,8 @@ address {
 }
 #navfoot th {
   font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  border: 2px dashed black;
 }
 #navfoot td {
   font-family: 'Quicksand', sans-serif;
@@ -215,7 +217,6 @@ address {
 }
 .footey {
   background-color: #5FA5C4;
-  margin-top: 10px;
   font-size: 14px;
   display: block;
   width: 100%;
