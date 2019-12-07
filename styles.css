@@ -129,14 +129,11 @@ p {
   margin: 35px auto;
   font-family: 'Poppins', sans-serif;
 }
-#hidden {
-  float: center;
-  margin-top: 100px;
-}
 .hehe {
   border-style: solid;
   border-color: #0C73A0;
   margin: 35px auto;
+  display: block;
 }
 .eva {
   border-style: solid;
@@ -149,15 +146,35 @@ p {
   border-style: solid;
   border-color: #0C73A0;
   margin: 35px auto;
+  display: block;
 }
 figcaption {
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
-  margin: 5px auto;
-}
-.clearfix {
   margin: 10px auto;
+  display: block;
 }
+/*styles for the catering page*/
+.catering {
+  margin: 10px auto;
+  font-family: 'Poppins', sans-serif;
+  border: 1px solid  #0C73A0;
+  border-radius: 30px;
+  padding: 10px;
+}
+#Progress_Status { 
+  width: 50%; 
+  background-color: #ddd; 
+} 
+  
+#myprogressBar { 
+  width: 1%; 
+  height: 35px; 
+  background-color: #4CAF50; 
+  text-align: center; 
+  line-height: 32px; 
+  color: black; 
+} 
 /*styles for the gallery page*/
 .cake1 {
   display: flex;
@@ -194,7 +211,6 @@ address {
 #navfoot th {
   font-family: 'Quicksand', sans-serif;
   font-size: 20px;
-  border: 2px dashed black;
 }
 #navfoot td {
   font-family: 'Quicksand', sans-serif;
@@ -220,6 +236,7 @@ address {
   font-size: 14px;
   display: block;
   width: 100%;
+  position: absolute;
 }
 .footey li {
     font-family: 'Poppins', sans-serif;
