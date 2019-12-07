@@ -1,3 +1,5 @@
+
+// this is for menu
 function validateForm() {
     if (isEmpty(document.getElementById('data_2').value.trim())) {
     alert('Reviewer is required!');
@@ -18,7 +20,7 @@ function validateForm() {
     var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,15}(?:\.[a-z]{2})?)$/i;
     return isEmpty(email) || re.test(email);
     }
-
+// this is for catering
     function update() { 
         var element = document.getElementById("myprogressBar");    
         var width = 1; 
