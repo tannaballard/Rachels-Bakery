@@ -202,6 +202,15 @@ border-radius: 30px;
   align-items: center;
   border-radius: 30px;
 }
+/*styles for the review page*/
+
+
+
+
+
+
+
+
 /*styles for the footer*/
 address {
   font-family: 'Quicksand', sans-serif;
@@ -250,3 +259,4 @@ address {
 .footey a:hover {
   color: white;
 }
+/*media queries*/
