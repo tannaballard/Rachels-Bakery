@@ -17,7 +17,17 @@
 17. take out contact page |done|
 18. if enough time, make carousel on index page--- DISCARDED
 19. THE LAST PAGE WILL BE WHERE YOU CAN MAKE A REVIEW!!
+20. fix the gallery image responsiveness
 
+
+
+NOTE FOR TANNA: need to embed the menu word document at home or school.
+
+RESPONSIVENESS (ISSUES TO FIX)---
+1.
+2.
+3.
+4.
 
 
 1. Make sure you're site is responsive
