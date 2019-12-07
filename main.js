@@ -18,3 +18,17 @@ function validateForm() {
     var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,15}(?:\.[a-z]{2})?)$/i;
     return isEmpty(email) || re.test(email);
     }
+
+    function update() { 
+        var element = document.getElementById("myprogressBar");    
+        var width = 1; 
+        var identity = setInterval(scene, 10); 
+        function scene() { 
+          if (width >= 100) { 
+            clearInterval(identity); 
+          } else { 
+            width++;  
+            element.style.width = width + '%';  
+          } 
+        } 
+      } 
