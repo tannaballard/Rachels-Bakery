@@ -56,14 +56,11 @@ li{
   cursor: pointer;
   border-radius: 30px;
 }
-.haha {
+.firstCake {
   height: 100%;
   width: 100%;
   display: flex;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
+margin: 20px auto;
   align-items: center;
   border-style: outset;
   border-color: #5F93C4;
@@ -77,26 +74,21 @@ li{
   font-size: 50px;
   color: #FFF;
 }
-.lol {
-  font-family: 'Poppins', sans-serif;
-}
-.bowbow {
+.secondCake {
   height: 100%;
   width: 70%;
-  margin-top: 30px;
-  margin-bottom: 15px;
-  margin-left: auto;
+  margin: 30px auto;
   border-style: outset;
   border-color: #5F93C4;
 }
 .quality h2 {
-  margin-top: 40px;
-  margin-right: 80px;
+  margin: 40px auto;
 }
 .text-center {
   font-size: 45px;
   font-family: 'Cookie', cursive;
   border-bottom: 2px solid #5F93C4;
+  margin: 20px auto;
 }
 .testimonials {
   margin: 35px auto;
@@ -163,7 +155,7 @@ figcaption {
   padding: 10px;
 }
 #Progress_Status { 
-  width: 50%; 
+  width: 100%; 
   background-color: #ddd; 
 } 
   
@@ -215,11 +207,13 @@ border-radius: 30px;
 address {
   font-family: 'Quicksand', sans-serif;
   margin: 30px auto;
-  font-size: 14px;
+  font-size: 16px;
 }
 #navfoot th {
   font-family: 'Quicksand', sans-serif;
   font-size: 20px;
+  display: inline;
+  text-align: center;
 }
 #navfoot td {
   font-family: 'Quicksand', sans-serif;
@@ -259,5 +253,46 @@ address {
 }
 .footey a:hover {
   color: white;
+}
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00B4CC;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #00B4CC;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  background: #00B4CC;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 /*media queries*/
