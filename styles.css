@@ -223,6 +223,7 @@ address {
 }
 #navfoot td {
   font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
   display:inline;
   border-right: 1px solid black;
   border-spacing: 5px;
