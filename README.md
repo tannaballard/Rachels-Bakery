@@ -1,13 +1,13 @@
 1.  Need to link js file |done|
 2.  Clean up css file |done|
 3.  Social Media--- DISCARDED
-4.  Make comments on html and css page
-5.  Make consistent and clear names for classes/ids/functions
+4.  Make comments on html and css page |done|
+5.  Make consistent and clear names for classes/ids/functions |done|
 6.  Make meta viewport |done|
-7.  Make meta description for each page- taylor
-8.  icon in title tag
+7.  Make meta description for each page- taylor |done|
+8.  icon in title tag--- DISCARDED
 9.  Move all script tags right before closing body tag |done|
-10. Make header tag for navbar-taylor
+10. Make header tag for navbar-taylor |done|
 11. Fix footer- tanna |done|
 12. put footer styles at the bottom |done|
 13. media queries- for phones- max width:900px  600px
