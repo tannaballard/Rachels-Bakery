@@ -75,16 +75,23 @@ margin: 20px auto;
   color: #FFF;
 }
 .secondCake {
-  height: 80%;
-  width: 70%;
+  height: 100%;
+  width: 100%;
   margin: 30px auto;
   border-style: outset;
   border-color: #5F93C4;
-  min-width: 50%;
-  min-height: 60%;
 }
 .quality h2 {
   margin: 40px auto;
+  border-bottom: 2px solid #5F93C4;
+  padding: 15px 15px 15px;
+  text-align: center;
+}
+.quality2 {
+  margin: 40px auto;
+  border: 1px solid #5F93C4;
+  border-radius: 30px;
+  padding: 15px 15px 15px;
 }
 .text-center {
   font-size: 45px;
@@ -171,42 +178,66 @@ figcaption {
 } 
 /*styles for the gallery page*/
 .cake1 {
-  display: flex;
-  height: 450px;
-  margin-top: 70px;
-  margin-left: 60px;
-  margin-right: auto;
-  align-items: center;
-border-radius: 30px;
+  height: 80%;
+  width: 80%; 
+  margin: 35px auto;
+  display: block;
 }
 .cake2 {
-  display: flex;
-  margin-top: 20px;
+  height: 80%;
+  width: 80%; 
+  display: block;
+  margin: 35px auto;
   border-radius: 30px;
-  margin-left: auto;
-  margin-right: 40px;
-  margin-bottom: 20px;
 }
 .cake3 {
-  display: flex;
-  height: 600px;
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  align-items: center;
+  display: block;
+  margin: 35px auto;
+  border-radius: 30px;
+}
+.cake4 {
+  height: 80%;
+  width: 80%; 
+  display: block;
+  margin: 35px auto;
+  border-radius: 30px;
+}
+.cake5 {
+  height: 70%;
+  width: 80%; 
+  display: block;
+  margin: 35px auto;
+  border-radius: 30px;
+}
+.cake6 {
+  height: 80%;
+  width: 80%; 
+  display: block;
+  margin: 35px auto;
   border-radius: 30px;
 }
 /*styles for the review page*/
 #form {
 margin: 20px auto;
-align-content: center;
 }
 
 .submit {
   color: white;
   font-size: 20px;
 }
-
+.tellUs {
+margin: 30px auto;
+text-align: center;
+border: 1px solid black;
+border-radius: 30px;
+}
+.reviewLogo {
+  margin: 50px auto;
+  border: 1px solid white;
+  background-color: white;
+  float: center;
+  align-content: center;
+}
 
 
 
