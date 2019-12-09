@@ -187,8 +187,7 @@ input {
   padding: 10px;
   width: 100%;
   font-size: 17px;
-  border: 1px solid rgba(116, 168, 210, 0.62);
-  color: rgba(116, 168, 210, 0.62);
+  border: 1px solid #aaaaaa;
 }
 input.invalid {
   background-color: #ffdddd;
@@ -199,6 +198,11 @@ input.invalid {
 #finalSub {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
+  background-color: white;
+}
+.thanks {
+  text-align: center;
+  border: 2px solid white;
   background-color: white;
 }
 /*styles for the gallery page*/
@@ -275,7 +279,15 @@ border-radius: 30px;
   border-bottom: 1px solid black;
   padding: 0 10px;
 }
-
+/*styles for thank you page.*/
+.thankYou {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  margin: 50px auto;
+border-bottom: 3px solid #0C73A0;
+word-wrap: break-word;
+}
 /*styles for the footer*/
 address {
   font-family: 'Quicksand', sans-serif;
