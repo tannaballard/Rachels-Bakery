@@ -197,9 +197,15 @@ border-radius: 30px;
   border-radius: 30px;
 }
 /*styles for the review page*/
+#form {
+margin: 20px auto;
+align-content: center;
+}
 
-
-
+.submit {
+  color: white;
+  font-size: 20px;
+}
 
 
 
