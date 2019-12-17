@@ -6,6 +6,7 @@
   <meta name="description" content="Rachel bakes cakes and more on the side for clients.">
   <meta name="keywords" content="baking, catering, rachel, cakes">
   <meta name="author" content="Tanna Ballard and Taylor McWherter">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rachel's Bakery</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Cookie|Dancing+Script|Poppins|Quicksand&display=swap" rel="stylesheet">
@@ -38,10 +39,12 @@
     </div>
   </nav>
   </header>
+
+  <!---The top picture with the cupcakes.-->
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <img src="img/cupcupcake.jpg" class="haha">
+        <img src="img/cupcupcake.jpg" class="firstCake">
         <div class="center">
           <h2>
             Try our delicious pastries!
@@ -49,22 +52,29 @@
         </div>
         <a  id="menu" class="btn" href="menu.html" role="button">Menu</a>
       </div>
+
+      <!---The other picture with the text beside it.-->
       <div class="container">
         <div class="row">
-          <div class="col-md-8">
-            <img src="img/indexcake.jpg" class="bowbow">
+          <div class="col-md-6">
+            <img src="img/indexcake.jpg" class="secondCake">
           </div>
-          <div class="quality col-md-4">
+          <div class="quality col-md-6">
             <h2>
               Made with Quality
             </h2>
-            <p>
-              Rachel's Bakery brings to you the softest, fluffiest pastries with buttercream frosting that leaves you satisfied.</p>
+            <p class="quality2">,
+              Rachel's Bakery brings to you the softest, fluffiest pastries with buttercream frosting that leaves you satisfied.
+            </p>
+            <a href="review.html" id="review" style="color: rgb(89, 81, 202);font-size: 16px;">Want to let us know how we're doing?</a>
           </div>
         </div>
       </div>
     </div>
   </div>
+
+
+  <!--The testimonials.-->
   <div class="testimonials container">
     <div class="row">
       <div class="col-md-12">
@@ -139,6 +149,9 @@
       </div>
     </div>
   </div>
+
+
+  <!---The footer.-->
   <footer class="footey">
     <div class="container">
       <div class="row">
@@ -150,9 +163,9 @@
           <div class="col-md-6 navfoot">
               <table id="navfoot">
                   <tr>
-                  <td>
+                  <th>
                     Navigation
-                  </td>
+                  </th>
                   <td>
                     <a href="index.html">
                       Home
@@ -176,6 +189,11 @@
                   <td>
                     <a href="gallery.html">
                       Gallery
+                    </a>
+                  </td>
+                  <td>
+                    <a href="review.html">
+                      Reviews
                     </a>
                   </td>
                   </tr>

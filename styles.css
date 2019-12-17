@@ -8,6 +8,9 @@ body {
 img {
   border-radius: 30px;
 }
+a:hover {
+  color: white;
+}
 /*styles for the navigation bar*/
 .navbar {
   color: #FFF;
@@ -56,14 +59,11 @@ li{
   cursor: pointer;
   border-radius: 30px;
 }
-.haha {
+.firstCake {
   height: 100%;
   width: 100%;
   display: flex;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: auto;
-  margin-right: auto;
+margin: 20px auto;
   align-items: center;
   border-style: outset;
   border-color: #5F93C4;
@@ -77,32 +77,38 @@ li{
   font-size: 50px;
   color: #FFF;
 }
-.lol {
-  font-family: 'Poppins', sans-serif;
-}
-.bowbow {
+.secondCake {
   height: 100%;
-  width: 70%;
-  margin-top: 30px;
-  margin-bottom: 15px;
-  margin-left: auto;
+  width: 100%;
+  margin: 30px auto;
   border-style: outset;
   border-color: #5F93C4;
 }
 .quality h2 {
-  margin-top: 40px;
-  margin-right: 80px;
+  margin: 40px auto;
+  border-bottom: 2px solid #5F93C4;
+  padding: 15px 15px 15px;
+  text-align: center;
+}
+.quality2 {
+  margin: 40px auto;
+  border: 1px solid #5F93C4;
+  border-radius: 30px;
+  padding: 15px 15px 15px;
 }
 .text-center {
   font-size: 45px;
   font-family: 'Cookie', cursive;
   border-bottom: 2px solid #5F93C4;
+  margin: 20px auto;
 }
 .testimonials {
   margin: 35px auto;
 }
-
-
+#review {
+  margin: 10px auto;
+  text-align: center;
+}
 /*styles for the about page*/
 .about {
   font-family: 'Cookie', cursive;
@@ -129,14 +135,11 @@ p {
   margin: 35px auto;
   font-family: 'Poppins', sans-serif;
 }
-#hidden {
-  float: left;
-  margin-top: 100px;
-}
 .hehe {
   border-style: solid;
   border-color: #0C73A0;
   margin: 35px auto;
+  display: block;
 }
 .eva {
   border-style: solid;
@@ -149,51 +152,162 @@ p {
   border-style: solid;
   border-color: #0C73A0;
   margin: 35px auto;
+  display: block;
 }
 figcaption {
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
-  margin: 5px auto;
-}
-.clearfix {
   margin: 10px auto;
+  display: block;
+}
+/*styles for the catering page*/
+.catering {
+  margin: 10px auto;
+  font-family: 'Poppins', sans-serif;
+  border: 1px solid  #0C73A0;
+  border-radius: 30px;
+  padding: 10px;
+}
+.cater {
+  margin: 10px auto;
+}
+#regForm {
+  background-color: #5F93C4;
+  margin: 80px auto;
+  padding: 40px;
+  width: 70%;
+  min-width: 300px;
+}
+
+h1 {
+  text-align: center;  
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  border: 1px solid #aaaaaa;
+}
+input.invalid {
+  background-color: #ffdddd;
+}
+.step.finish {
+  background-color: #4CAF50;
+}
+#finalSub {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  background-color: white;
+}
+.thanks {
+  text-align: center;
+  border: 2px solid white;
+  background-color: white;
 }
 /*styles for the gallery page*/
 .cake1 {
-  display: flex;
-  height: 450px;
-  margin-top: 70px;
-  margin-left: 60px;
-  margin-right: auto;
-  align-items: center;
-border-radius: 30px;
+  height: 80%;
+  width: 80%; 
+  margin: 35px auto;
+  display: block;
 }
 .cake2 {
-  display: flex;
-  margin-top: 20px;
+  height: 80%;
+  width: 80%; 
+  display: block;
+  margin: 35px auto;
   border-radius: 30px;
-  margin-left: auto;
-  margin-right: 40px;
-  margin-bottom: 20px;
 }
 .cake3 {
-  display: flex;
-  height: 600px;
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  align-items: center;
+  display: block;
+  margin: 35px auto;
   border-radius: 30px;
+}
+.cake4 {
+  height: 80%;
+  width: 80%; 
+  display: block;
+  margin: 35px auto;
+  border-radius: 30px;
+}
+.cake5 {
+  height: 70%;
+  width: 80%; 
+  display: block;
+  margin: 35px auto;
+  border-radius: 30px;
+}
+.cake6 {
+  height: 80%;
+  width: 80%; 
+  display: block;
+  margin: 35px auto;
+  border-radius: 30px;
+}
+/*styles for the review page*/
+#form {
+margin: 20px auto;
+}
+
+.submit {
+  color: white;
+  font-size: 20px;
+}
+.tellUs {
+margin: 30px auto;
+text-align: center;
+border: 1px solid black;
+border-radius: 30px;
+}
+.reviewLogo {
+  margin: 50px auto;
+  border: 1px solid white;
+  background-color: white;
+  float: center;
+  align-content: center;
+}
+/*styles for menu*/
+#menuDoc {
+  margin: 55px auto;
+}
+.menuTitle {
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  margin: 10px auto;
+  border-bottom: 1px solid black;
+  padding: 0 10px;
+}
+/*styles for thank you page.*/
+.thankYou {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 50px;
+  margin: 50px auto;
+border-bottom: 3px solid #0C73A0;
+word-wrap: break-word;
 }
 /*styles for the footer*/
 address {
   font-family: 'Quicksand', sans-serif;
-  margin-top: 30px;
-  font-size: 14px;
+  margin: 30px auto;
+  font-size: 16px;
 }
-table#navfoot td, th {
+#navfoot th {
   font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  display: inline;
+  text-align: center;
+}
+#navfoot td {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
   display:inline;
+  border-right: 1px solid black;
+  border-spacing: 5px;
+  padding: 0 8px;
+  empty-cells: hide;
 }
 #navfoot {
   width: 100%;
@@ -202,16 +316,16 @@ table#navfoot td, th {
 	background-color: #5FA5C4;
   margin: 30px auto;
   color: black;
-font-size: 20px;
-width: 100%;
-border-right: 1px solid black;
+  font-size: 20px;
+  width: 100%;
+  
 }
 .footey {
   background-color: #5FA5C4;
-  margin-top: 10px;
   font-size: 14px;
   display: block;
   width: 100%;
+  position: absolute;
 }
 .footey li {
     font-family: 'Poppins', sans-serif;
@@ -225,3 +339,4 @@ border-right: 1px solid black;
 .footey a:hover {
   color: white;
 }
+/*media queries*/
